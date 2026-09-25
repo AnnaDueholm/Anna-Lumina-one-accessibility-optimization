@@ -93,7 +93,7 @@ header {
   background-color: var(--bg-color);
 
   /* Herobilledet som baggrunden*/
-  background-image: url(images/lumina-by-day/hero-pic.jpg);
+  background-image: url(images/lumina-by-day/hero-billede.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
