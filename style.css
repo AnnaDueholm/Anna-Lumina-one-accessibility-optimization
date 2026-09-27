@@ -187,11 +187,10 @@ header {
 #Produktside {
   display: flex;
   justify-content: space-between;
-  padding: 80px;
+  padding: var(--space-80);
   background-color: var(--bg-color);
-  height: 830px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: var(--space-137);
   align-items: center;
 }
 
