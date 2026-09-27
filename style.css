@@ -197,8 +197,8 @@ header {
 .produktinfo {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 16px;
+  gap: var(--space-32);
+  padding: var(--space-16)
 }
 .container {
   position: relative;
