@@ -554,13 +554,13 @@ så ringen altid følger den runde form, uanset browser)*/
 #Footer {
   background-color: var(--Footer);
   color: var(--tekst-billeder);
-  padding: 80px;
+  padding: var(--space-80);
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-32);
 }
 
 .footer-col h2 {
@@ -586,13 +586,14 @@ så ringen altid følger den runde form, uanset browser)*/
   opacity: 0.75;
 }
 
-.footer-col a:hover {
+.footer-col a:hover,
+.footer-col a:focus-visible {
   opacity: 1;
   text-decoration: underline;
 }
 
 .footer-bottom {
-  margin-top: 100px;
+  margin-top: var(--space-100);
   font-size: 13px;
   opacity: 0.6;
 }
