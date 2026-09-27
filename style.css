@@ -29,10 +29,8 @@
   --Footer: #282119;
 }
 
-/*Tekst variabler*/
-
-
-/*Hero-overskrift (den eneste h1 på siden)*/
+/*Tekst variabler
+Hero-overskrift (den eneste h1 på siden)*/
 .text-hero-title {
   font-family: "Jura", sans-serif;
   font-size: 72px;
