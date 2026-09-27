@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+/*Spacing variabler*/
+:root {
+  --space-16: 1rem;       /* 16px – gap mellem små elementer (fx kort, Instagram-billeder)*/
+  --space-32: 2rem;       /* 32px – gap mellem Features-ikonkort */
+  --space-80: 5rem;       /* 80px – sidepadding på sektioner */
+  --space-100: 6.25rem;   /* 100px – top/bund-padding på sektioner */
+  --space-137: 8.594rem;  /* 137.5px – afstand mellem sektioner */
+}
+
 /*Farve variabler*/
 :root {
   --bg-color: #fafafa;
@@ -21,6 +30,7 @@
 }
 
 /*Tekst variabler*/
+
 
 /*Hero-overskrift (den eneste h1 på siden)*/
 .text-hero-title {
