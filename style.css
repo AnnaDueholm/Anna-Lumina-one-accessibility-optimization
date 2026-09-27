@@ -321,7 +321,7 @@ så ringen altid følger den runde form, uanset browser)*/
   background-color: var(--bg-color);
 }
 
-#LuminateYourself h1 {
+#LuminateYourself h2 {
   color: var(--tekst-farve);
   /* Overskriftens placering */
   left: 120px;
@@ -332,7 +332,7 @@ så ringen altid følger den runde form, uanset browser)*/
   margin-left: 80px;
 }
 
-#LuminateYourself h6 {
+#LuminateYourself p {
   color: var(--tekst-farve);
   /* Denne lille teksts placering */
   left: 120px;
@@ -373,7 +373,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*THE ONE GIFT THAT HAS IT ALL tekst styles*/
 
-#TheOneGift h1 {
+#TheOneGift h2 {
   color: var(--tekst-billeder);
   /* Tekstens placering */
   position: absolute; /*Placerer teksten ovenpå billedet*/
@@ -437,7 +437,7 @@ så ringen altid følger den runde form, uanset browser)*/
   color: var(--tekst-farve);
 }
 
-.features-content h1 {
+.features-content h2 {
   margin-bottom: 24px;
 }
 
@@ -555,7 +555,7 @@ så ringen altid følger den runde form, uanset browser)*/
   gap: 40px;
 }
 
-.footer-col h4 {
+.footer-col h2 {
   font-family: "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 700;
