@@ -76,10 +76,11 @@ body {
   background-color: var(--bg-color);
 }
 
-/*Top bar*/
-#shop-sale {
+/*Nav bar*/
+.navbar {
   align-content: center;
-  height: 40px;
+  height: 3.875rem;
+  width: 100%;
   background-color: var(--Footer);
   color: var(--tekst-billeder);
   padding-left: 24px;
