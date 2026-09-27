@@ -488,6 +488,7 @@ så ringen altid følger den runde form, uanset browser)*/
   max-width: 28rem;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: var(--space-16);
   color: var(--tekst-billeder);
 }
