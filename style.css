@@ -173,21 +173,6 @@ header {
   border-color: var(--CTA);
 }
 
-/*Menu linje*/
-#menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  gap: 20px;
-  padding: 80px;
-  padding-top: 16px;
-  cursor: pointer;
-}
-#menu img {
-  width: 20 px;
-  height: auto;
-  display: block;
-}
 
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
 
@@ -548,9 +533,6 @@ så ringen altid følger den runde form, uanset browser)*/
   white-space: nowrap;
 }
 
-.product-price.on-sale {
-  color: #b23b3b;
-}
 
 .product-category {
   margin-top: 4px;
