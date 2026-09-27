@@ -93,7 +93,7 @@ header {
   background-color: var(--bg-color);
 
   /* Herobilledet som baggrunden*/
-  background-image: url(images/lumina-by-day/hero-billede.webp);
+  background-image: url(images/banner-pics/hero-pic.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -222,19 +222,19 @@ header {
 }
 
 .color1 {
-  background-image: url(images/speaker-colors/jacks-whiteu.bg.png);
+  background-image: url(images/speaker-colors/jacks-whiteu.bg.webp);
 }
 
 .color2 {
-  background-image: url(images/speaker-colors/sabbath-black-u.bg.png);
+  background-image: url(images/speaker-colors/sabbath-black-u.bg.webp);
 }
 
 .color3 {
-  background-image: url(images/speaker-colors/springing-silveru.bg.png);
+  background-image: url(images/speaker-colors/springing-silver.webp);
 }
 
 .color4 {
-  background-image: url(images/speaker-colors/crisp-brownu.bg.png);
+  background-image: url(images/speaker-colors/crisp-brownu.bg.webp);
 }
 
 .ButtonContainer {
