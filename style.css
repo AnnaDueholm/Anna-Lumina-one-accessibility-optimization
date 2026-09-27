@@ -480,37 +480,16 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*THE ONE GIFT THAT HAS IT ALL tekst styles*/
 
-#TheOneGift h2 {
+.gift-content {
+  position: absolute;
+  top: 50%;
+  left: var(--space-80);
+  transform: translateY(-50%);
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
   color: var(--tekst-billeder);
-  /* Tekstens placering */
-  position: absolute; /*Placerer teksten ovenpå billedet*/
-  left: 120px;
-  right: 700px;
-  top: 200px;
-  text-align: left;
-}
-
-/*FEATURES knap styles*/
-
-.FeaturesButton {
-  position: absolute; /*Placerer knappen ovenpå billedet*/
-  top: 400px;
-  left: 550px;
-  border-radius: 20px;
-  padding: 10px 56px;
-  background-color: var(--CTA);
-  color: var(--CTA-tekst);
-  font-family: "Jura", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-/*FEATURES knap hover effekt*/
-.FeaturesButton:hover {
-  background-color: var(--CTA-tekst);
-  color: var(--CTA);
-  border-color: var(--CTA);
 }
 
 /*HER INDSÆTTES FEATURES SEKTION*/
