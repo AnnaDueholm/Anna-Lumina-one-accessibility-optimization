@@ -14,32 +14,41 @@
 
   <body>
     <header>
-<nav class="navbar" aria-label="Main navigation">
-    <a href="/" class="nav-logo">
-        <img src="images/icons/logo.svg" alt="Lumina audio - home" class="logo-icon">
-    </a>
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="/" class="nav-logo">
+          <img
+            src="images/icons/logo.svg"
+            alt="Lumina audio - home"
+            class="logo-icon"
+          />
+        </a>
 
-    <div class="nav-icons">
-        <button type="button" class="nav-item" aria-label="Search">
-            <img src="images/icons/search.svg" alt="" class="nav-icon">
-        </button>
-        <button type="button" class="nav-item" aria-label="My profile">
-            <img src="images/icons/profile.svg" alt="" class="nav-icon">
-        </button>
-        <button type="button" class="nav-item" aria-label="Cart">
-            <img src="images/icons/cart.svg" alt="" class="nav-icon">
-        </button>
-        <button type="button" class="nav-item menu-item" aria-label="Open menu">
-            <img src="images/icons/menu.svg" alt="" class="nav-icon">
-        </button>
-    </div>
-</nav>
-
+        <div class="nav-icons">
+          <button type="button" class="nav-item" aria-label="Search">
+            <img src="images/icons/search.svg" alt="" class="nav-icon" />
+          </button>
+          <button type="button" class="nav-item" aria-label="My profile">
+            <img src="images/icons/profile.svg" alt="" class="nav-icon" />
+          </button>
+          <button type="button" class="nav-item" aria-label="Cart">
+            <img src="images/icons/cart.svg" alt="" class="nav-icon" />
+          </button>
+          <button
+            type="button"
+            class="nav-item menu-item"
+            aria-label="Open menu"
+          >
+            <img src="images/icons/menu.svg" alt="" class="nav-icon" />
+          </button>
+        </div>
+      </nav>
 
       <section id="HeroText">
         <h1 class="text-hero-title">Bring the sound with you</h1>
-        <br/>
-        <p class="text-cta-large">Meet Lumina One - a Bluetooth speaker made for every moment.</p>        
+        <br />
+        <p class="text-cta-large">
+          Meet Lumina One - a Bluetooth speaker made for every moment.
+        </p>
         <button class="HeroButton">READ MORE</button>
       </section>
     </header>
@@ -56,36 +65,89 @@
           <div class="headlineProduct">
             <p class="text-eyebrow">LUMINA one</p>
             <h2 class="text-section-title">Portable Bluetooth Speaker</h2>
-            <p>A small speaker with big sound, a sleek design and incredible features:</p>
+            <p>
+              A small speaker with big sound, a sleek design and incredible
+              features:
+            </p>
             <ul class="feature-list">
               <li>18 hours of playtime</li>
               <li>Up to 100 dB</li>
               <li>Listen together with social connect</li>
             </ul>
-        </div>
-        
-          <div class="ButtonContainer">
-            <p id="productName">Jacks White</p>
-            <div>
-              <button class="button white" id="white">
-                <img
-                  src="images/speaker-colors/elipse-white.svg"
-                  alt="Jacks White"
-                />
-              </button>
+          </div>
 
-              <button class="button black" id="black">
-                <img
-                  src="images/speaker-colors/ellipse-black.svg"
-                  alt="Black Sabbath"
-                />
-              </button>
-              <button class="button silver" id="silver">
-                <img
-                  src="images/speaker-colors/ellipse-silver.svg"
-                  alt="Springing Silver"
-                />
-              </button>
+          <div class="product-accordion">
+            <details class="product-accordion-item">
+              <summary>
+                Product information
+                <span class="chevron"></span>
+              </summary>
+              <p>
+                This speaker combines Scandinavian elegance with rich, powerful
+                audio, the LUMINA One is designed for a lifestyle where music
+                brings people together. Featuring smooth, rounded corners, an
+                elegant soft-touch handle for effortless carrying, and a compact
+                profile standing at 30 cm high and 20 cm wide, it is lightweight
+                and beautifully crafted. It's the ultimate companion for every
+                shared moment.
+              </p>
+            </details>
+            <details class="product-accordion-item">
+              <summary>
+                Key elements
+                <span class="chevron"></span>
+              </summary>
+              <ul class="key-elements-list">
+                <li>
+                  <strong>Immersive Sound:</strong> Up to 100 dB of clear,
+                  dynamic audio for any outdoor hangout.
+                </li>
+                <li>
+                  <strong>Nordic Design & Lighting:</strong> Curved edges,
+                  fabric mesh, and customizable LED modes (Chill, Party,
+                  Sunset). Available in Beige, Silver, Black, and Brown.
+                </li>
+                <li>
+                  <strong>Portable & Compact:</strong> 30 x 20 cm, 4.5 kg, with
+                  a built-in handle and matching tote bag.
+                </li>
+                <li>
+                  <strong>All-Day Battery:</strong> Up to 18 hours of playback
+                  with fast USB-C charging.
+                </li>
+                <li>
+                  <strong>Seamless Connectivity:</strong> Bluetooth 5.3, AUX,
+                  and multi-speaker pairing (up to 4 units).
+                </li>
+                <li>
+                  <strong>Social Connect:</strong> Share and blend playlists
+                  with friends via the app.
+                </li>
+                <li>
+                  <strong>Weather-Resistant:</strong> IPX5 rating against rain
+                  and splashes.
+                </li>
+              </ul>
+            </details>
+          </div>
+
+    <div class="ButtonContainer">
+      <p id="productName">Jacks White</p>
+      <div>
+        <button type="button" class="button white" id="white" aria-label="Select color: White">
+          <img src="images/speaker-colors/elipse-white.svg" alt="" />
+        </button>
+        <button type="button" class="button black" id="black" aria-label="Select color: Black">
+          <img src="images/speaker-colors/ellipse-black.svg" alt="" />
+        </button>
+        <button type="button" class="button silver" id="silver" aria-label="Select color: Silver">
+          <img src="images/speaker-colors/ellipse-silver.svg" alt="" />
+        </button>
+        <button type="button" class="button brown" id="brown" aria-label="Select color: Brown">
+          <img src="images/speaker-colors/ellipse-brown.svg" alt="" />
+        </button>
+      </div>
+    </div>
 
               <button class="button brown" id="brown">
                 <img
@@ -107,38 +169,14 @@
         <p>Tag us at @Luminaaudio on Instagram to share your moment</p>
 
         <div class="InstaKarrusel">
-          <img
-            src="images/insta-carousel/pic1.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic2.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic3.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic4.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic5.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic6.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic7.webp"
-            alt="Instagram billede"
-          />
-          <img
-            src="images/insta-carousel/pic8.webp"
-            alt="Instagram billede"
-          />
+          <img src="images/insta-carousel/pic1.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic2.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic3.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic4.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic5.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic6.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic7.webp" alt="Instagram billede" />
+          <img src="images/insta-carousel/pic8.webp" alt="Instagram billede" />
         </div>
       </section>
 
@@ -295,64 +333,63 @@
         </div>
       </section>
 
-
       <footer id="Footer">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h2>CUSTOMER CARE</h2>
-          <ul>
-            <li><a href="#">Shipping and delivery</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">Product support</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Find store</a></li>
-          </ul>
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h2>CUSTOMER CARE</h2>
+            <ul>
+              <li><a href="#">Shipping and delivery</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Product support</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Find store</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h2>OUR POLICIES</h2>
+            <ul>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Counterfeit</a></li>
+              <li><a href="#">Change cookie settings</a></li>
+              <li><a href="#">Cookie policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Policies and terms</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h2>OUR COMPANY</h2>
+            <ul>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Custom integration</a></li>
+              <li><a href="#">Become a sales partner</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h2>SOCIAL LINKS</h2>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">X</a></li>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">TikTok</a></li>
+              <li><a href="#">Pinterest</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-col">
-          <h2>OUR POLICIES</h2>
-          <ul>
-            <li><a href="#">Accessibility</a></li>
-            <li><a href="#">Counterfeit</a></li>
-            <li><a href="#">Change cookie settings</a></li>
-            <li><a href="#">Cookie policy</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Policies and terms</a></li>
-          </ul>
+        <div class="footer-bottom">
+          <p>&copy; LUMINA AUDIO 2025</p>
         </div>
-
-        <div class="footer-col">
-          <h2>OUR COMPANY</h2>
-          <ul>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Investors</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Custom integration</a></li>
-            <li><a href="#">Become a sales partner</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h2>SOCIAL LINKS</h2>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">X</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">TikTok</a></li>
-            <li><a href="#">Pinterest</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; LUMINA AUDIO 2025</p>
-      </div>
-    </footer>
+      </footer>
     </main>
   </body>
 </html>
