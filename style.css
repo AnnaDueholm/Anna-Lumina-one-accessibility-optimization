@@ -197,7 +197,8 @@ header {
 }
 
 /*READ MORE knap hover effekt*/
-.HeroButton:hover {
+.HeroButton:hover
+.HeroButton:focus-visible {
   background-color: var(--CTA-tekst);
   color: var(--CTA);
   border-color: var(--CTA);
@@ -217,7 +218,7 @@ header {
 #Produktside {
   display: flex;
   justify-content: space-between;
-  padding: var(--space-80);
+  padding: var(--space-100) var(--space-80);
   background-color: var(--bg-color);
   width: 100%;
   align-items: center;
