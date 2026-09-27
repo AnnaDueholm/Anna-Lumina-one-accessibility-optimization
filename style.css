@@ -209,26 +209,19 @@ header {
 .headlineProduct {
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px;
+  padding-bottom: var(--space-32);
   color: var(--tekst-farve);
-  gap: 10px;
+  gap: 0.625rem;
 }
 
-.trustpilot {
+/*Feature-liste under produktbeskrivelsen*/
+.feature-list {
+  list-style: disc;
+  padding-left: 1.25rem;
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px;
-  gap: 10px;
+  gap: 0.5rem;
   color: var(--tekst-farve);
-}
-
-.trustpilot p {
-  font-style: italic;
-}
-
-.trustpilot img {
-  width: 80px;
-  height: 20px;
 }
 
 .color,
@@ -270,9 +263,9 @@ header {
   width: auto;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  gap: 0.625rem;
+  padding-top: var(--space-16);
+  padding-bottom: var(--space-16);
   border-top: 1px solid var(--tekst-farve);
   border-bottom: 1px solid var(--tekst-farve);
 }
@@ -280,12 +273,12 @@ header {
 .ButtonContainer > div {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .button {
-  width: 32px;
-  height: 32px;
+  width: var(--space-32);
+  height: var(--space-32);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -294,7 +287,7 @@ header {
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
-  margin: 0px;
+  margin: 0;
 }
 
 .button img {
