@@ -22,43 +22,43 @@
 
 /*Tekst variabler*/
 
-/*Overskrifter på Hero og billeder*/
-h1 {
+/*Hero-overskrift (den eneste h1 på siden)*/
+.text-hero-title {
   font-family: "Jura", sans-serif;
   font-size: 72px;
   font-weight: 200;
 }
 
-/*Overskrift på produktsider*/
-h2 {
+/*Sektionsoverskrifter (h2)*/
+.text-section-title {
   font-family: "Jura", sans-serif;
   font-size: 38px;
   font-weight: 500;
 }
 
-/*Store CTA*/
-h3 {
+/*Store CTA / hero-undertekst*/
+.text-cta-large {
   font-family: "Jura", sans-serif;
   font-size: 32px;
   font-weight: 500;
 }
 
-/*Små CTA*/
-h4 {
+/*Produktkort-titler (h3)*/
+.text-cta-small {
   font-family: "Jura", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
 
 /*Pricetags*/
-h5 {
+.text-price {
   font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
 
-/*LUMINA one i lille*/
-h6 {
+/*Eyebrow-tekst (lille Lumina one)*/
+.text-eyebrow {
   font-family: "Jura", sans-serif;
   font-size: 14px;
   font-weight: 600;
