@@ -139,7 +139,8 @@ body {
 
 /*Hero*/
 header {
-  height: 100vh;
+  position: relative;
+  height: 100svh;
   background-color: var(--bg-color);
 
   /* Herobilledet som baggrunden*/
@@ -148,6 +149,13 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+/*background-attachment: fixed droppes på mindre skærme*/
+@media (min-width: 768px) {
+  header {
+    background-attachment: fixed;
+  }
 }
 
 /*Hero tekst styles*/
