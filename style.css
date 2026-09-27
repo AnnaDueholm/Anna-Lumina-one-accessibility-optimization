@@ -161,16 +161,20 @@ header {
 /*Hero tekst styles*/
 
 #HeroText {
+  position: relative;
+  z-index: 1;
+  height: 100%;
   color: var(--tekst-billeder);
   /* Tekstens placering */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 120px;
-  padding-right: 700px;
-  padding-top: 100px;
-  padding-bottom: 224px;
+  gap: var(--space-32);
+  max-width: 40rem;
+  padding-left: var(--space-80);
+  padding-top: var(--space-100);
+  padding-bottom: var(--space-100);;
   text-align: left;
 }
 
