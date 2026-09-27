@@ -159,7 +159,6 @@ header {
 }
 
 /*Hero tekst styles*/
-
 #HeroText {
   position: relative;
   z-index: 1;
@@ -178,27 +177,40 @@ header {
   text-align: left;
 }
 
-/*BUY NOW knap styles*/
+.text-cta-large {
+  font-family: "Jura", sans-serif;
+  font-size: 1.5rem;
+  /* justeret ned fra 32px (2rem) */
+  font-weight: 500;
+}
 
+/*READ MORE knap styles*/
 .HeroButton {
-  border-radius: 20px;
-  padding: 10px 56px;
+  border-radius: 1.25rem;
+  padding: 0.625rem 3.5rem;
   background-color: var(--CTA);
   color: var(--CTA-tekst);
   font-family: "Jura", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   cursor: pointer;
 }
 
-/*BUY NOW knap hover effekt*/
-
+/*READ MORE knap hover effekt*/
 .HeroButton:hover {
   background-color: var(--CTA-tekst);
   color: var(--CTA);
   border-color: var(--CTA);
 }
 
+/*Scroll-hint*/
+.scroll-hint--overlay {
+  position: absolute;
+  bottom: var(--space-32);
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--tekst-billeder);
+}
 
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
 
