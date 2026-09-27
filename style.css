@@ -176,7 +176,7 @@ header {
 
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
 
-#Produktside1 {
+#Produktside {
   display: flex;
   justify-content: space-between;
   padding: 80px;
