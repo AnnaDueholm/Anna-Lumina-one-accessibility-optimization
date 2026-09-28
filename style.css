@@ -447,7 +447,7 @@ så ringen altid følger den runde form, uanset browser)*/
   margin-bottom: 14px;
 }
 
-.InstaKarrusel {
+.instaCarousel {
   display: grid; /*lægger billederne på række*/
   grid-auto-flow: column; /*lægger billederne vertikalt*/
   grid-auto-columns: 19%; /*Bestemmer hvor mange procent af et billede skal fylde på siden*/
@@ -455,7 +455,7 @@ så ringen altid følger den runde form, uanset browser)*/
   overscroll-behavior-inline: contain; /*fjerner muligheden for at scrolle i andre elementer på siden*/
 }
 
-.InstaKarrusel img {
+.instaCarousel img {
   height: 320px;
   width: 280px;
   padding: 10px;
