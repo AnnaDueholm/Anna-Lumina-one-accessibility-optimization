@@ -260,8 +260,10 @@ header::before {
 }
 .container {
   position: relative;
-  flex: 0 0 40vw;
-  height: 70vh;
+  width: 100%;
+  max-width: 36rem;
+  aspect-ratio: 1 / 1; /* altid kvadratisk – højden følger bredden */
+  justify-self: center;
 }
 
 .headlineProduct {
@@ -371,6 +373,7 @@ header::before {
 
 .ButtonContainer {
   display: flex;
+  flex-wrap: wrap;
   width: auto;
   align-items: center;
   justify-content: space-between;
@@ -387,8 +390,8 @@ header::before {
 }
 
 .button {
-  width: var(--space-32);
-  height: var(--space-32);
+  width: 2rem;
+  height: 2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -418,8 +421,10 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .price {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: var(--space-16);
 }
 /*"Scroll" tekst + pil styles*/
 .scroll-hint {
@@ -440,7 +445,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .scroll-hint--inline {
   color: var(--tekst-farve);
-  padding: var(--space-32) 0;
+  padding: var(--space-32) var(--space-80);
 }
 
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
