@@ -226,7 +226,7 @@ header::before {
 
 /*Scroll-hint*/
 .scroll-hint--overlay {
-  position: absolute;
+  position: relative;
   z-index: 1;
   padding: 0 var(--space-80) var(--space-32);
   color: var(--tekst-billeder);
@@ -255,9 +255,8 @@ header::before {
   display: flex;
   flex-direction: column;
   gap: var(--space-32);
-  padding: var(--space-16);
-  min-width: 0; 
-  flex: 0 0 44rem;
+  width: 100%;
+  max-width: 44rem;  /* højst 704px, men må gerne være smallere */
 }
 .container {
   position: relative;
