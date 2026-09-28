@@ -470,16 +470,27 @@ så ringen altid følger den runde form, uanset browser)*/
 .instaCarousel {
   display: grid; /*lægger billederne på række*/
   grid-auto-flow: column; /*lægger billederne vertikalt*/
-  grid-auto-columns: 19%; /*Bestemmer hvor mange procent af et billede skal fylde på siden*/
+  grid-auto-columns: 17.5rem; /*Bestemmer hvor meget af et billede skal fylde på siden*/
+  gap:var(--space-16);
+  padding: var(--space-16);
   overflow-x: auto; /*stopper billederne i bare at fortsætte ud i "marginen"*/
   overscroll-behavior-inline: contain; /*fjerner muligheden for at scrolle i andre elementer på siden*/
+  scroll-snap-type: x mandatory;
 }
 
 .instaCarousel img {
-  height: 320px;
-  width: 280px;
-  padding: 10px;
+  display: block;
+  width: 100%;
+  height: auto;
   object-fit: cover; /*udfylder billederne i den defineret størrelse uden at strække billederne*/
+  aspect-ratio: 7 / 8;
+  scroll-snap-align: center;
+}
+
+/*Synlig ramme når karrusellen har tastaturfokus*/
+.instaCarousel:focus-visible {
+  outline: 2px solid var(--tekst-farve);
+  outline-offset: -2px;
 }
 
 /*THE ONE GIFT THAT HAS IT ALL
