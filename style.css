@@ -706,15 +706,15 @@ Mobil: brun tekstboks øverst, billedet nedenunder*/
 
 /*HER INDSÆTTES FOOTER*/
 
-#Footer {
+#footer {
   background-color: var(--Footer);
   color: var(--tekst-billeder);
-  padding: var(--space-80);
+  padding: var(--space-100) var(--space-80);
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
   gap: var(--space-32);
 }
 
