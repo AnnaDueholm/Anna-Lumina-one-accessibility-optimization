@@ -531,6 +531,13 @@ så ringen altid følger den runde form, uanset browser)*/
   max-width: 28rem;
 }
 
+.features-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-32);
+}
+
 /*HER INDSÆTTES JUST ONE MORE SEKTION OG THE ONE THATS GOING AWAY SEKTION*/
 
 .product-showcase {
