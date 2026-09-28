@@ -678,7 +678,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .footer-col h2 {
   font-family: "Manrope", sans-serif;
-  font-size: var(--fs-body);
+  font-size: var(--fs-small);
   font-weight: 700;
   letter-spacing: 0.04em;
   margin-bottom: 1.25rem;
@@ -695,7 +695,7 @@ så ringen altid følger den runde form, uanset browser)*/
   color: var(--tekst-billeder);
   text-decoration: none;
   font-family: "Manrope", sans-serif;
-  font-size: var(--fs-body);
+  font-size: var(--fs-small);
   opacity: 0.75;
 }
 
