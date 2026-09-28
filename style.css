@@ -612,6 +612,110 @@ Mobil: brun tekstboks øverst, billedet nedenunder*/
   font-size: 0.875rem;
 }
 
+/*TRUSTPILOT SEKTION*/
+
+#trust {
+  display: grid;
+  gap: var(--space-32);
+  padding: var(--space-32) var(--space-80);
+  background-color: var(--Footer); 
+  background-image: url(images/banner-pics/trustpilot.webp);
+  background-size: cover;
+  background-position: center;
+  color: var(--tekst-billeder);
+}
+
+.trust-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.trust-header h2 {
+  line-height: 1;
+}
+
+.trust-link {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+
+/*Anmeldelsen*/
+.review-card {
+  justify-self: center;
+  width: 100%;
+  max-width: 34rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-32);
+  background-color: var(--bg-color);
+  color: var(--tekst-farve);
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.review-card blockquote p {
+  font-size: var(--fs-small);
+  line-height: 1.5;
+}
+
+.review-card figcaption {
+  align-self: flex-end;
+  font-size: var(--fs-small);
+}
+
+/*5 stars*/
+.stars {
+  display: block;
+  height: 1.75rem;
+  width: auto;
+  align-self: flex-start;
+}
+
+/*Samlet bedømmelse nederst til højre*/
+.trust-rating {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.trust-score {
+  font-family: "Jura", sans-serif;
+  font-size: var(--fs-section);
+  font-weight: 300;
+  color: var(--CTA-tekst);
+}
+
+.trust-count {
+  font-size: var(--fs-small);
+  color: var(--CTA-tekst);
+  background-color: #332721;
+}
+
+/*Større skærme: højere sektion – overskrift øverst, bedømmelse nederst*/
+@media (min-width: 56em) {
+  #trust {
+    min-height: 45rem;
+    align-content: space-between;
+  }
+}
+
+/*Sørger for at Trustpilot score læses højt af skærmlæsere, men skjules viseltp*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /*HER INDSÆTTES EXPLORE MORE FROM LUMINA AUDIO SEKTION*/
 
 .product-showcase {
