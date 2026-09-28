@@ -170,17 +170,21 @@ header {
   background-position: center;
 }
 
-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgb(0 0 0 / 0.4);
-}
 
-/*background-attachment: fixed droppes på mindre skærme*/
+/*Store skærme: fast baggrundsbillede, intet mørkt lag*/
 @media (min-width: 48em) {
   header {
     background-attachment: fixed;
+  }
+}
+
+/*Små skærme: mørkt lag, så den hvide tekst kan læses*/
+@media (max-width: 47.99em) {
+  header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 0.4);
   }
 }
 
