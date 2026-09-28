@@ -1,8 +1,8 @@
-# Eksamen_LuminaOne_Anna
-Eksamens opgave - 1. semester - Anna Dueholm - MDU-E25D
+# Anna-Lumina-one-accessibility-optimization
+Eksamens opgave - 3. semester - Anna Dueholm - MDU-E25EXD
 
-Dette er mit eksamens projekt, som viser den foreløbig kodet udgave af Lumina Audio's landing page for deres produkt serie Lumine One. 
+Dette er mit eksamens projekt, som viser den videreudviklede udgave af Lumina Audio's landing page for deres produktserie Lumina One.
 
-Denne landing page er primært kodet i HTML og CSS med en interaktiv produktside kodet i Javasprict. Der er også uplaodet en JSON fil til dette projekt, som ikke er i brug. Denne vil tages i brug ved videreudvikling af projektet. Dette er ikke en færdig kodning af designet lavet i Figma, men det viser min proces i perioden.  
+Landing pagen er kodet i HTML og CSS med en interaktiv produktside kodet i JavaScript. I denne version er siden gjort responsiv, så den fungerer på både mobil, tablet og computer samt ved 200 % zoom. Siden er også gjort tilgængelig for brugere med skærmlæser og tastatur, og billederne er komprimeret, så siden loader hurtigere.
 
-Link til HTML validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fannadueholm.github.io%2FEksamen_LuminaOne_Anna%2F 
+Siden er testet med HTML validator, Lighthouse og axe DevTools uden fejl, samt manuelt med tastatur og VoiceOver.
