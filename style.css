@@ -9,7 +9,7 @@
 :root {
   --space-16: 1rem;       /* 16px – gap mellem små elementer (fx kort, Instagram-billeder)*/
   --space-32: clamp(1.5rem, 1rem + 1vw, 2rem); /* responsiv 24px → 32px – gap mellem Features-ikonkort */
-  --space-80: 5clamp(1rem, -0.5rem + 6vw, 5rem); /* responsiv 16px → 80px – sidepadding på sektioner */
+  --space-80: clamp(1rem, -0.5rem + 6vw, 5rem); /* responsiv 16px → 80px – sidepadding på sektioner */
   --space-100: clamp(3rem, 1rem + 5.5vw, 6.25rem); /* responsiv 48px → 100px – top/bund-padding på sektioner */
   --space-137: clamp(4rem, 2rem + 6vw, 8.594rem);  /* responsiv 64px → 137.5px – afstand mellem sektioner */
 }
