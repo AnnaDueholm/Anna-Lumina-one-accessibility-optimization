@@ -12,6 +12,7 @@
   --space-80: clamp(1rem, -0.5rem + 6vw, 5rem); /* responsiv 16px → 80px – sidepadding på sektioner */
   --space-100: clamp(3rem, 1rem + 5.5vw, 6.25rem); /* responsiv 48px → 100px – top/bund-padding på sektioner */
   --space-137: clamp(4rem, 2rem + 6vw, 8.594rem);  /* responsiv 64px → 137.5px – afstand mellem sektioner */
+  --nav-height: 3.875rem; /* 62px – navbarens højde */
 }
 
 /*Farve variabler*/
@@ -44,7 +45,7 @@ Hero-overskrift (den eneste h1 på siden)*/
 .text-hero-title {
   font-family: "Jura", sans-serif;
   font-size: var(--fs-hero);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /*Sektionsoverskrifter (h2)*/
@@ -58,7 +59,7 @@ Hero-overskrift (den eneste h1 på siden)*/
 .text-cta-large {
   font-family: "Jura", sans-serif;
   font-size: var(--fs-cta-large);
-  font-weight: 100;
+  font-weight: 300;
   max-width: 24rem;
 }
 
@@ -106,12 +107,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 3.875rem;
+  height: var(--nav-height);
   width: 100%;
   background-color: var(--Footer);
-  padding: 0 1.5rem;
+  padding: 0 var(--space-80);
   position: fixed;
   z-index: 9999;
+  top: 0;
+  left: 0;
 }
 
 /*Gruppen af knapper*/
