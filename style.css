@@ -101,6 +101,7 @@ body {
   background-color: var(--Footer);
   padding: 0 24px;
   position: fixed;
+  z-index: 9999;
 }
 
 /*Gruppen af knapper*/
