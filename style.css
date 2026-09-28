@@ -208,7 +208,7 @@ header {
 }
 
 /*READ MORE knap styles*/
-.HeroButton {
+.heroButton {
   border-radius: 1.25rem;
   padding: 0.625rem 3.5rem;
   background-color: var(--CTA-tekst);
@@ -219,11 +219,13 @@ header {
   font-size: var(--fs-cta-large);
   font-weight: 300;
   cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
 }
 
 /*READ MORE knap hover effekt*/
-.HeroButton:hover,
-.HeroButton:focus-visible {
+.heroButton:hover,
+.heroButton:focus-visible {
   background-color: var(--CTA);
   color: var(--CTA-tekst);
   border-color: var(--CTA);
@@ -239,7 +241,7 @@ header {
 
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
 
-#Produktside {
+#productSection {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: var(--space-32);
@@ -250,13 +252,13 @@ header {
 
 /*To kolonner (billede | tekst), når der er plads*/
 @media (min-width: 56em) {
-  #Produktside {
+  #productSection {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--space-80);
   }
 }
 
-.produktinfo {
+.productInfo {
   display: flex;
   flex-direction: column;
   gap: var(--space-32);
@@ -376,7 +378,7 @@ header {
   color: var(--tekst-farve);
 }
 
-.ButtonContainer {
+.buttonContainer {
   display: flex;
   flex-wrap: wrap;
   width: auto;
@@ -388,7 +390,7 @@ header {
   border-bottom: 1px solid var(--tekst-farve);
 }
 
-.ButtonContainer > div {
+.buttonContainer > div {
   display: flex;
   align-items: center;
   gap: 0.625rem;
@@ -531,7 +533,7 @@ Mobil: brun tekstboks øverst, billedet nedenunder*/
   max-width: 22rem;
 }
 
-.gift-content .HeroButton {
+.gift-content .heroButton {
   margin-top: var(--space-16);
 }
 
