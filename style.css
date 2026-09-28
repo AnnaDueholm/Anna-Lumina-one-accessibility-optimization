@@ -173,7 +173,7 @@ header {
   max-width: 40rem;
   padding-left: var(--space-80);
   padding-top: var(--space-100);
-  padding-bottom: var(--space-100);;
+  padding-bottom: var(--space-100);
   text-align: left;
 }
 
@@ -192,7 +192,7 @@ header {
   color: var(--CTA-tekst);
   font-family: "Jura", sans-serif;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 200;
   cursor: pointer;
 }
 
