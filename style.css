@@ -8,10 +8,10 @@
 /*Spacing variabler*/
 :root {
   --space-16: 1rem;       /* 16px – gap mellem små elementer (fx kort, Instagram-billeder)*/
-  --space-32: 2rem;       /* 32px – gap mellem Features-ikonkort */
-  --space-80: 5rem;       /* 80px – sidepadding på sektioner */
-  --space-100: 6.25rem;   /* 100px – top/bund-padding på sektioner */
-  --space-137: 8.594rem;  /* 137.5px – afstand mellem sektioner */
+  --space-32: clamp(1.5rem, 1rem + 1vw, 2rem); /* responsiv 24px → 32px – gap mellem Features-ikonkort */
+  --space-80: 5clamp(1rem, -0.5rem + 6vw, 5rem); /* responsiv 16px → 80px – sidepadding på sektioner */
+  --space-100: clamp(3rem, 1rem + 5.5vw, 6.25rem); /* responsiv 48px → 100px – top/bund-padding på sektioner */
+  --space-137: clamp(4rem, 2rem + 6vw, 8.594rem);  /* responsiv 64px → 137.5px – afstand mellem sektioner */
 }
 
 /*Farve variabler*/
@@ -29,25 +29,35 @@
   --Footer: #282119;
 }
 
+/*Skriftstørrelse variabler*/
+:root {
+  --fs-hero: clamp(2.5rem, 1.5rem + 4vw, 4.5rem); /* responsiv 40px → 72px */
+  --fs-section: clamp(1.75rem, 1.25rem + 1.5vw, 2.375rem); /* responsiv 28px → 38px */
+  --fs-cta-large: clamp(1.125rem, 1rem + 0.5vw, 1.5rem); /* responsiv 18px → 24px */
+  --fs-cta-small: 1.25rem;/* 20px */
+  --fs-body: 1rem;/* 16px */
+  --fs-small: 0.875rem;/* 14px */
+}
+
 /*Tekst variabler
 Hero-overskrift (den eneste h1 på siden)*/
 .text-hero-title {
   font-family: "Jura", sans-serif;
-  font-size: 72px;
+  font-size: var(--fs-hero);
   font-weight: 200;
 }
 
 /*Sektionsoverskrifter (h2)*/
 .text-section-title {
   font-family: "Jura", sans-serif;
-  font-size: 38px;
+  font-size: var(--fs-section);
   font-weight: 500;
 }
 
 /*Store CTA / hero-undertekst*/
 .text-cta-large {
   font-family: "Jura", sans-serif;
-  font-size: 1.5rem;
+  font-size: var(--fs-cta-large);
   font-weight: 100;
   max-width: 24rem;
 }
@@ -55,28 +65,28 @@ Hero-overskrift (den eneste h1 på siden)*/
 /*Produktkort-titler (h3)*/
 .text-cta-small {
   font-family: "Jura", sans-serif;
-  font-size: 20px;
+  font-size: var(--fs-cta-small);
   font-weight: 600;
 }
 
 /*Pricetags*/
 .text-price {
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
+  font-size: var(--fs-cta-small);
   font-weight: 500;
 }
 
 /*Eyebrow-tekst (lille Lumina one)*/
 .text-eyebrow {
   font-family: "Jura", sans-serif;
-  font-size: 14px;
+  font-size: var(--fs-small);
   font-weight: 600;
 }
 
 /*Brødtekst*/
 p {
   font-family: "Manrope", sans-serif;
-  font-size: 16px;
+  font-size: var(--fs-body);
   font-weight: 500;
 }
 
@@ -99,7 +109,7 @@ body {
   height: 3.875rem;
   width: 100%;
   background-color: var(--Footer);
-  padding: 0 24px;
+  padding: 0 1.5rem;
   position: fixed;
   z-index: 9999;
 }
@@ -433,7 +443,7 @@ så ringen altid følger den runde form, uanset browser)*/
   right: 700px;
   top: 200px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   margin-left: 80px;
 }
 
@@ -445,8 +455,8 @@ så ringen altid følger den runde form, uanset browser)*/
   top: 400px;
   text-align: left;
   margin-left: 80px;
-  margin-top: 24px;
-  margin-bottom: 14px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.875rem;
 }
 
 .instaCarousel {
@@ -668,24 +678,24 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .footer-col h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  font-size: var(--fs-body);
   font-weight: 700;
   letter-spacing: 0.04em;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .footer-col ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .footer-col a {
   color: var(--tekst-billeder);
   text-decoration: none;
   font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  font-size: var(--fs-body);
   opacity: 0.75;
 }
 
@@ -697,6 +707,6 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .footer-bottom {
   margin-top: var(--space-100);
-  font-size: 13px;
+  font-size: 0.8125rem;
   opacity: 0.6;
 }
