@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Hvid baggrund -->
+  <rect width="32" height="32" rx="6" fill="#ffffff" />
+
+  <g fill="none" stroke="#332721" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Håndtag -->
+    <path d="M11 12V9a5 4 0 0 1 10 0v3" stroke-width="2" />
+    <!-- Selve højttaleren -->
+    <rect x="6" y="12" width="20" height="17" rx="4" stroke-width="2" />
+    <!-- Stoffront / grill -->
+    <rect x="9.5" y="17" width="13" height="8.5" rx="2" stroke-width="1.5" />
+  </g>
+</svg>
