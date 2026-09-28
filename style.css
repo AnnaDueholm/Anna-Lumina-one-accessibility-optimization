@@ -493,6 +493,10 @@ så ringen altid følger den runde form, uanset browser)*/
   color: var(--tekst-billeder);
 }
 
+.gift-content .HeroButton {
+  margin-top: var(--space-16);
+}
+
 /*HER INDSÆTTES FEATURES SEKTION*/
 
 #Features {
