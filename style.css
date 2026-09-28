@@ -235,12 +235,20 @@ header::before {
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
 
 #Produktside {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-32);
+  align-items: center;
   padding: var(--space-100) var(--space-80);
   background-color: var(--bg-color);
-  width: 100%;
-  align-items: center;
+}
+
+/*To kolonner (billede | tekst), når der er plads*/
+@media (min-width: 56em) {
+  #Produktside {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-80);
+  }
 }
 
 .produktinfo {
