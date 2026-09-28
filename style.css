@@ -157,20 +157,26 @@ body {
 
 /*Hero*/
 header {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  height: 100svh;
+  min-height: 100svh;
   background-color: var(--bg-color);
-
-  /* Herobilledet som baggrunden*/
   background-image: url(images/banner-pics/hero-pic.webp);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
 
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 0.4);
+}
+
 /*background-attachment: fixed droppes på mindre skærme*/
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   header {
     background-attachment: fixed;
   }
@@ -178,8 +184,10 @@ header {
 
 /*Hero tekst styles*/
 #HeroText {
+  display: flex;
   position: relative;
   z-index: 1;
+  flex: 1;
   height: 100%;
   color: var(--tekst-billeder);
   /* Tekstens placering */
@@ -189,9 +197,7 @@ header {
   align-items: flex-start;
   gap: var(--space-32);
   max-width: 40rem;
-  padding-left: var(--space-80);
-  padding-top: var(--space-100);
-  padding-bottom: var(--space-100);
+  padding: calc(var(--nav-height) + var(--space-32)) var(--space-80) var(--space-32);
   text-align: left;
 }
 
@@ -205,8 +211,8 @@ header {
   border: 2px solid var(--CTA);
   border-radius: 1.25rem;
   font-family: "Jura", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 200;
+  font-size: var(--fs-cta-large);
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -221,9 +227,8 @@ header {
 /*Scroll-hint*/
 .scroll-hint--overlay {
   position: absolute;
-  bottom: var(--space-32);
-  left: 50%;
-  transform: translateX(-50%);
+  z-index: 1;
+  padding: 0 var(--space-80) var(--space-32);
   color: var(--tekst-billeder);
 }
 
