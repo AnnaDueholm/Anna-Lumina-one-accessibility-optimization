@@ -114,6 +114,7 @@ body {
   z-index: 9999;
   top: 0;
   left: 0;
+  padding: 0 var(--space-32)
 }
 
 /*Gruppen af knapper*/
@@ -124,8 +125,10 @@ body {
 }
 
 /*Menu ikon*/
+@media (min-width: 48em) {
 .nav-item.menu-item {
-  margin: var(--space-16);
+  margin-left: var(--space-16);
+}
 }
 
 /*hver enkelt knap*/
@@ -139,7 +142,7 @@ body {
   border: none;
   color: inherit;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
 /*billedet inde i knappen*/
@@ -149,8 +152,7 @@ body {
 }
 
 .logo-icon {
-  height: 2.5rem;
-  margin-left: var(--space-32);
+  height: clamp(1.75rem, 1rem + 2vw, 2.5rem);
   display: block;
 }
 
