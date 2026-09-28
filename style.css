@@ -583,6 +583,19 @@ så ringen altid følger den runde form, uanset browser)*/
   max-width: none;
 }
 
+.product-scroller {
+  overflow-x: auto;
+  /* luft rundt om kortene, så skygge og fokusring ikke klippes af */
+  padding: var(--space-16) var(--space-80) var(--space-32);
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  gap: var(--space-16);
+  width: max-content;
+}
+
 /*HER INDSÆTTES FOOTER*/
 
 #Footer {
