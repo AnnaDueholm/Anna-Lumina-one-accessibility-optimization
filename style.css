@@ -579,8 +579,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .product-scroller {
   overflow-x: auto;
-  /* luft rundt om kortene, så skygge og fokusring ikke klippes af */
-  padding: var(--space-16) var(--space-80) var(--space-32);
+  padding: var(--space-16) var(--space-16) var(--space-32);
 }
 
 .product-list {
