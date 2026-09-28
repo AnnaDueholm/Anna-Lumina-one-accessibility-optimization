@@ -513,79 +513,13 @@ så ringen altid følger den runde form, uanset browser)*/
 /*HER INDSÆTTES FEATURES SEKTION*/
 
 #Features {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 80px;
-  padding: 100px 80px;
+  padding: var(--space-100) var(--space-80);
   background-color: var(--bg-color);
-}
-
-.features-image {
-  flex: 0 0 auto;
-  width: 40%;
-}
-
-.features-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-.features-content {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 45%;
   color: var(--tekst-farve);
 }
 
-.features-content h2 {
-  margin-bottom: 24px;
-}
 
-.accordion {
-  border-top: 1px solid var(--tekst-farve);
-}
 
-.accordion-item {
-  border-bottom: 1px solid var(--tekst-farve);
-}
-
-.accordion-item summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
-  font-family: "Jura", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  list-style: none;
-}
-
-.accordion-item summary::-webkit-details-marker {
-  display: none;
-}
-
-.accordion-item .chevron {
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid var(--tekst-farve);
-  border-bottom: 2px solid var(--tekst-farve);
-  transform: rotate(45deg);
-  transition: transform 0.3s ease;
-}
-
-.accordion-item[open] .chevron {
-  transform: rotate(-135deg);
-}
-
-.accordion-item p {
-  padding-bottom: 20px;
-  color: var(--tekst-farve);
-}
 
 /*HER INDSÆTTES JUST ONE MORE SEKTION OG THE ONE THATS GOING AWAY SEKTION*/
 
