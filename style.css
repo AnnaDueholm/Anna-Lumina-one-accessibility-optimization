@@ -616,6 +616,7 @@ så ringen altid følger den runde form, uanset browser)*/
 .product-scroller {
   overflow-x: auto;
   padding: var(--space-16) var(--space-16) var(--space-32);
+  scroll-snap-type: x mandatory;
 }
 
 .product-list {
@@ -627,6 +628,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .product-list>li {
   flex: 0 0 17.5rem;
+  scroll-snap-align: center; 
 }
 
 .product-card {
