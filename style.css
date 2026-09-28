@@ -418,10 +418,10 @@ så ringen altid følger den runde form, uanset browser)*/
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
 
 #LuminateYourself {
-  height: 630px;
+  height: auto; 
   width: 100%;
-  margin-top: 10px;
   background-color: var(--bg-color);
+  margin: var(--space-100) 0 var(--space-100) 0 ;
 }
 
 #LuminateYourself h2 {
