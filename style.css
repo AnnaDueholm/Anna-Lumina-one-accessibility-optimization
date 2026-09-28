@@ -453,33 +453,18 @@ så ringen altid følger den runde form, uanset browser)*/
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
 
 #luminateYourself {
-  height: auto; 
-  width: 100%;
   background-color: var(--bg-color);
   margin: var(--space-100) 0 var(--space-100) 0 ;
 }
 
 #luminateYourself h2 {
   color: var(--tekst-farve);
-  /* Overskriftens placering */
-  left: 120px;
-  right: 700px;
-  top: 200px;
-  text-align: left;
-  margin-bottom: 0.625rem;
-  margin-left: 80px;
+  margin: 0 var(--space-80) 0.625rem;
 }
 
 #luminateYourself p {
   color: var(--tekst-farve);
-  /* Denne lille teksts placering */
-  left: 120px;
-  right: 700px;
-  top: 400px;
-  text-align: left;
-  margin-left: 80px;
-  margin-top: 1.5rem;
-  margin-bottom: 0.875rem;
+  margin: 1.5rem var(--space-80) 0.875rem;
 }
 
 .instaCarousel {
