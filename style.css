@@ -190,6 +190,8 @@ header {
   padding: 0.625rem 3.5rem;
   background-color: var(--CTA);
   color: var(--CTA-tekst);
+  border: 2px solid var(--CTA);
+  border-radius: 1.25rem;
   font-family: "Jura", sans-serif;
   font-size: 1.5rem;
   font-weight: 200;
@@ -197,7 +199,7 @@ header {
 }
 
 /*READ MORE knap hover effekt*/
-.HeroButton:hover
+.HeroButton:hover,
 .HeroButton:focus-visible {
   background-color: var(--CTA-tekst);
   color: var(--CTA);
