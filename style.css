@@ -110,7 +110,6 @@ body {
   height: var(--nav-height);
   width: 100%;
   background-color: var(--Footer);
-  padding: 0 var(--space-80);
   position: fixed;
   z-index: 9999;
   top: 0;
@@ -121,11 +120,12 @@ body {
 .nav-icons {
   display: flex;
   align-items: center;
+  gap: 0.25rem;
 }
 
 /*Menu ikon*/
 .nav-item.menu-item {
-  margin: 1.5rem;
+  margin: var(--space-16);
 }
 
 /*hver enkelt knap*/
@@ -151,6 +151,7 @@ body {
 .logo-icon {
   height: 2.5rem;
   margin-left: var(--space-32);
+  display: block;
 }
 
 
