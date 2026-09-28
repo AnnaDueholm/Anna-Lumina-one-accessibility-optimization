@@ -518,8 +518,18 @@ så ringen altid følger den runde form, uanset browser)*/
   color: var(--tekst-farve);
 }
 
+.features-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-32);
+  margin-bottom: var(--space-80);
+}
 
-
+.features-tagline {
+  text-align: right;
+  max-width: 28rem;
+}
 
 /*HER INDSÆTTES JUST ONE MORE SEKTION OG THE ONE THATS GOING AWAY SEKTION*/
 
