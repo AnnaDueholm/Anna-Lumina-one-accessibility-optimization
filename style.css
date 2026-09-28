@@ -550,6 +550,7 @@ så ringen altid følger den runde form, uanset browser)*/
 
 .features-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
   gap: var(--space-32);
