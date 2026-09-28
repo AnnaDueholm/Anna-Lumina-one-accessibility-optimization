@@ -452,14 +452,14 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
 
-#LuminateYourself {
+#luminateYourself {
   height: auto; 
   width: 100%;
   background-color: var(--bg-color);
   margin: var(--space-100) 0 var(--space-100) 0 ;
 }
 
-#LuminateYourself h2 {
+#luminateYourself h2 {
   color: var(--tekst-farve);
   /* Overskriftens placering */
   left: 120px;
@@ -470,7 +470,7 @@ så ringen altid følger den runde form, uanset browser)*/
   margin-left: 80px;
 }
 
-#LuminateYourself p {
+#luminateYourself p {
   color: var(--tekst-farve);
   /* Denne lille teksts placering */
   left: 120px;
