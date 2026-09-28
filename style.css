@@ -499,28 +499,34 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*THE ONE GIFT THAT HAS IT ALL billede styles*/
 
+/*THE ONE GIFT – billede og tekst lægges oven på hinanden med grid*/
 #TheOneGift {
-  position: relative; /*Gør det muligt, at placere tekst/knapper oven på billedet*/
+  display: grid;
+}
+
+/*Både billedet og teksten placeres i samme grid-celle*/
+#TheOneGift> * {
+  grid-area: 1 / 1;
 }
 
 #TheOneGift img {
-  width: 100%;
-  height: auto;
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* beskærer i stedet for at strække */
+  object-position: 70% center; /* holder højttaleren i billedet på smalle skærme */
 }
 
 /*THE ONE GIFT THAT HAS IT ALL tekst styles*/
 
 .gift-content {
-  position: absolute;
-  top: 45%;
-  left: var(--space-80);
-  transform: translateY(-50%);
-  max-width: 40rem;
+  align-self: center; /* lodret centreret i sektionen */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--space-16);
+  max-width: 40rem;
+  padding: var(--space-100) var(--space-80);
   color: var(--tekst-billeder);
 }
 
