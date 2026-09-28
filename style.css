@@ -499,11 +499,11 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*THE ONE GIFT THAT HAS IT ALL
 Mobil: brun tekstboks øverst, billedet nedenunder*/
-#TheOneGift {
+#theOneGift {
   display: grid;
 }
 
-#TheOneGift img {
+#theOneGift img {
   grid-row: 2;
   display: block;
   width: 100%;
@@ -543,19 +543,19 @@ Mobil: brun tekstboks øverst, billedet nedenunder*/
 /*Større skærme: brun tekstkolonne i venstre side, oven på billedet*/
 @media (min-width: 56em) {
 
-  #TheOneGift img,
-  #TheOneGift .gift-content {
+  #theOneGift img,
+  #theOneGift .gift-content {
     grid-area: 1 / 1; /* samme grid-celle = oven på hinanden */
   }
 
-  #TheOneGift img {
+  #theOneGift img {
     height: 100%;
     max-height: 48rem; /* skærer bunden af sektionen */
     object-fit: cover;
     object-position: 70% top; /* beskær fra bunden */
   }
 
-  #TheOneGift .gift-content {
+  #theOneGift .gift-content {
     max-width: 40rem; /* kun smal kolonne på store skærme */
   }
 }
