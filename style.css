@@ -137,6 +137,7 @@ body {
 
 .logo-icon {
   height: 2.5rem;
+  margin-left: var(--space-32);
 }
 
 
