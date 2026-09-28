@@ -553,6 +553,15 @@ så ringen altid følger den runde form, uanset browser)*/
   height: 2.5rem;
 }
 
+.feature-card-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
 /*HER INDSÆTTES JUST ONE MORE SEKTION OG THE ONE THATS GOING AWAY SEKTION*/
 
 .product-showcase {
