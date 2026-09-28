@@ -564,7 +564,10 @@ så ringen altid følger den runde form, uanset browser)*/
 
 /*HER INDSÆTTES EXPLORE MORE FROM LUMINA AUDIO SEKTION*/
 
-
+.product-showcase {
+  padding: var(--space-100) 0;
+  background-color: var(--bg-color);
+}
 
 
 /*HER INDSÆTTES FOOTER*/
