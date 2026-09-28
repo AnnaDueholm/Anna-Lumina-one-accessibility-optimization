@@ -99,6 +99,7 @@ body {
   width: 100%;
   background-color: var(--Footer);
   padding: 0 24px;
+  position: fixed;
 }
 
 /*Gruppen af knapper*/
@@ -569,6 +570,18 @@ så ringen altid følger den runde form, uanset browser)*/
   background-color: var(--bg-color);
 }
 
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: 0 var(--space-80);
+  margin-bottom: var(--space-32);
+  color: var(--tekst-farve);
+}
+
+.section-header .text-cta-large {
+  max-width: none;
+}
 
 /*HER INDSÆTTES FOOTER*/
 
