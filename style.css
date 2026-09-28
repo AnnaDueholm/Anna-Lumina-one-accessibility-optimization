@@ -202,11 +202,10 @@ header {
   justify-content: center;
   align-items: flex-start;
   gap: var(--space-32);
-  max-width: 40rem;
+  max-width: 50rem;
   padding: calc(var(--nav-height) + var(--space-32)) var(--space-80) var(--space-32);
   text-align: left;
 }
-
 
 /*READ MORE knap styles*/
 .HeroButton {
