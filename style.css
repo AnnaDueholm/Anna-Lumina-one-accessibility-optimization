@@ -228,7 +228,7 @@ header {
 .heroButton:focus-visible {
   background-color: var(--CTA);
   color: var(--CTA-tekst);
-  border-color: var(--CTA);
+  border-color: var(--CTA-tekst);
 }
 
 /*Scroll-hint*/
