@@ -163,7 +163,7 @@ header {
   flex-direction: column;
   position: relative;
   min-height: 100svh;
-  background-color: var(--bg-color);
+  background-color: var(--Footer);
   background-image: url(images/banner-pics/hero-pic.webp);
   background-repeat: no-repeat;
   background-size: cover;
